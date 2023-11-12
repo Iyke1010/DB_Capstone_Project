@@ -1,0 +1,1 @@
+SELECT customer.customerID, FullName, orders.OrderID, TotalCost , menu.MenuName FROM orders INNER JOIN customer ON orders.customerId = customer.customerID INNER JOIN menu ON orders.menuID = menu.menuID;SELECT * FROM littlelemondb.bookings;
